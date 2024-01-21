@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap');
+
+html,
+body,
+#root,
+#overlay,
+main {
+  min-height: 100vh;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.mediumgreen {
+  color: #5df7a9;
+}
+
+.alertyellow {
+  color: #f7c45d;
+}
+
+#root {
+  background-image: url('assets/_4d422a5a-8cfd-4faf-8327-971619a462ab.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position-x: 80px; */
+}
+
+header {
+  background: rgba(9, 13, 25, 0.7);
+  backdrop-filter: blur(8px);
+}
+
+#overlay,
+header {
+  background: linear-gradient(
+    270deg,
+    rgba(158, 131, 186, 0) 0%,
+    rgba(9, 13, 25, 1) 80%
+  );
+}
+
+/* NAVBAR */
+
+#playbtn,
+#playbtnmain {
+  background-color: #5df7a9;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  padding-inline: 30px;
+  border: none;
+  box-shadow: -8px 8px 7px -6px #000000;
+}
+
+#btncontainer {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: 0.2s;
+  width: fit-content;
+  &:hover {
+    scale: 1.1;
+    transition: 0.2s;
+  }
+  cursor: pointer;
+}
+
+/* HOMEPAGE */
+
+#maincontent {
+  margin-top: 15%;
+}
+
+.slogan {
+  background-color: rgb(247, 195, 93, 0.1);
+  padding: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid #f7c45d;
+}
+
+#playbtnmain {
+  padding-inline: 65px;
+  box-shadow: -6px 8px 0px -6px rgb(14, 123, 105);
+}
+
+#learnmorebtn {
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  padding-inline: 30px;
+  border: 1px solid #fff;
+  box-shadow: -8px 8px 7px -6px #000000;
+  margin-left: auto;
+}
