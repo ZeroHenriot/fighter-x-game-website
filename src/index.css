@@ -100,3 +100,8 @@ header {
   box-shadow: -8px 8px 7px -6px #000000;
   margin-left: auto;
 }
+/* FOOTER */
+
+footer {
+  background-color: rgb(9, 13, 25);
+}

@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Apple, GooglePlay } from 'react-bootstrap-icons'
 
 const Homepage = () => {
   return (
@@ -26,6 +27,29 @@ const Homepage = () => {
                     <Button id="learnmorebtn" className="fs-5">
                       Learn more
                     </Button>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+        <Row className="mt-5 text-white">
+          <Col>
+            <p className="fs-3">Download on:</p>
+            <Row>
+              <Col md={6} className="d-flex">
+                <div className="d-flex align-items-center border rounded px-2">
+                  <Apple className="fs-3 me-2" />
+                  <div>
+                    <p className="mb-0">Download on the</p>
+                    <p className="mb-0 fs-4">App Store</p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center border rounded px-2 ms-2">
+                  <GooglePlay className="fs-3 me-2" />
+                  <div>
+                    <p className="mb-0">Get it on</p>
+                    <p className="mb-0 fs-4">Google Play</p>
                   </div>
                 </div>
               </Col>

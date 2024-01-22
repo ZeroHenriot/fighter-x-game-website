@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import MyNavbar from './components/MyNavbar'
 import Homepage from './components/Homepage'
+import MyFooter from './components/MyFooter'
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
               <Route path="/" element={<Homepage />}></Route>
             </Routes>
           </main>
+          <footer>
+            <MyFooter />
+          </footer>
         </div>
-        <footer></footer>
       </BrowserRouter>
     </>
   )
